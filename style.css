@@ -58,7 +58,34 @@ nav{
     cursor: pointer;
     border-radius: 8px;
 }
-
+.fetures{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+.thumbs{
+    width: 30%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.thumbs img{
+    width: calc(100%-10px);
+}
+.details{
+    width: 30%;
+}
+.details h3{
+    font-size: 45px;
+    margin: 10px 0;
+}
+.details >p{
+    font-size: 18px;
+    margin: 15px 0;
+}
 @media only screen and (max-width: 776px) {
     .logo{
     font-size: 25px;
@@ -73,5 +100,18 @@ nav{
 }
 .meta-desc{
     font-size: 15px;
+}
+.fetures{
+    flex-direction: column;
+    padding:0px ;
+    gap: 5px;
+}
+.thumbs img{
+    /* grid-template-columns: repeat(1, 1fr); */
+    width: 90%;
+}
+.details{
+    width: 80%;
+    text-align: center;
 }
 }

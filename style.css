@@ -26,3 +26,35 @@ nav{
     text-decoration: none;
     color: black;
 }
+.meta-det{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.title{
+    font-size: 65px;
+    text-align: center;
+    width: 50%;
+}
+.meta-desc{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+.meta-det img{
+    width: 70%;
+    margin: 20px;
+}
+.explore{
+    width: 140px;
+    height: 60px;
+    border: none;
+    background-color: #FF900E;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}

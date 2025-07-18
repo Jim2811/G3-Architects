@@ -86,6 +86,66 @@ nav{
     font-size: 18px;
     margin: 15px 0;
 }
+.lFeatures{
+    /* width: 90vw; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 100px;
+    margin-left: 100px;
+}
+.box1{
+    width: 500px;
+}
+.box2{
+    width: 700px;
+}
+.box1 >h3{
+    padding: 20px;
+    font-size: 40px;
+    border-left: 5px solid #FF900E;
+    margin: 15px 0px;
+}
+.box1 p{
+    font-size: 16px;
+    color: #727272;
+}
+.box1 .sb{
+    margin: 20px 0;
+    padding: 17px 14px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px #7e7c7c;
+}
+.sb > h4{
+    padding-bottom: 7px;
+}
+.box2{
+    position: relative;
+    /* margin-left: 200px; */
+}
+.box2 img{
+    height: 70%;
+    display: block;
+}
+.box2 button{
+    width: 200px;
+    height: 100px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    bottom: 47px;
+    left: -47px;
+    cursor: pointer;
+}
+.box2 button h3{
+    font-size: 30px;
+}
+.box2 button p{
+    font-size: 20px;
+}
 @media only screen and (max-width: 776px) {
     .logo{
     font-size: 25px;

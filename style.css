@@ -205,9 +205,98 @@ nav{
     justify-content: space-around;
     margin: 30px 0 150px 0;
 }
-@media (776px <= width <= 1380px) {
+.footer{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.footerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: #727272;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 550px) {
+    .resH{
+        font-size: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .fetures{
+        flex-direction: column;
+        margin: 0;
+    }
+    .thumbs{
+        display: grid;
+        width: 70vw;
+        grid-template-columns: repeat(2, 1fr);
+        /* flex-direction: column; */
+        justify-content: center;
+        margin: 0;
+    }
+    .thumbs img{
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+    }
+    .lFeatures{
+        flex-direction: column;
+        margin: 0 auto; 
+        width: 80%;
+    }
+    .box1{
+        width: 100%;
+    }
+    .sb{
+        width: 100%;
+    }
+    .box2{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .box2 img{
+        width: 100%;
+    }
+    .factsSec{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .factsSec > p{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .companies{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .companies img{
+        width: 50%;
+    }
+}
+@media (550px <= width <= 1380px) {
     .logo{
     font-size: 25px;
+}
+.factsSec > p{
+    width: 100%;
 }
 nav{
     padding: 10px;

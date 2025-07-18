@@ -149,6 +149,7 @@ nav{
 .factsSec{
     margin: 0 auto;
     width: 1250px;
+    margin-bottom: 200px;
 }
 .factsSec > h2{
     font-size: 40px;
@@ -229,5 +230,14 @@ nav{
 .box2 button{
     left: 10%;
     margin: 0 auto;
+}
+.factsSec{
+    text-align: center;
+    width: 70vw;
+}
+.facts{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* grid-template-rows: repeat(2, 1fr); */
 }
 }
